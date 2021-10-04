@@ -10,16 +10,18 @@
 </head>
 <body>
     <header>
+        <div id="js">
+            <div id="formule"></div>
         <h1>
             Voici un Calculateur IMC poids / Taille²
         </h1>
-        <form action="Calculateur IMC">
-            <input type="text" class="poids" placeholder="Ton poids">
-            <input type="text" class="taille" placeholder="Ta taille">
-            <input type="text" class="resultats" placeholder="Ton resultats">
-            <input type="button" value="valider" class="valider">
-            
+        <form action="Calculateur IMC" id="form">
+            <input type="texte" id="poids" placeholder="Ton poids en kg" >
+            <input type="texte" id="taille" placeholder="Ta taille en m" >
+            <input type="texte" id="resultats" placeholder="Ton resultats"> 
+            <input type="button" value="valider" id="valide" onclick="validez ()">
         </form>
+    </div>
     </header>
 </body>
 </html>

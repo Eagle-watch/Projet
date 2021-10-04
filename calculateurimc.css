@@ -17,26 +17,35 @@ form{
     flex-wrap: wrap;
     margin-top: 5%;
 }
-.poids{
+#poids{
     text-align: center;
     border: solid 2px;
     border-radius: 50%;
     color: red;
 }
-.taille{
+#taille{
     text-align: center;
     border: solid 2px;
     border-radius: 50%;
     color: blue;
 }
-.resultats{
+#resultats{
     text-align: center;
     border: solid 2px;
     border-radius: 50%;
     color: purple;
 }
-.validez{
+#valide{
     border: solid 2px;
     border-radius: 50%;
     color: gray;
+}
+#js{
+    border: blue solid;
+    margin: auto;
+    width: 700px;
+    height: auto;
+    @media {
+        all
+    }
 }
