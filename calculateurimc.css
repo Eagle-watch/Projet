@@ -45,13 +45,16 @@ form{
     padding: 10px;
     width: 200px;
 }
+#valide.hover{
+    cursor: pointer;
+}
 #js{
     border: blue solid;
     margin: auto;
     width: 600px;
     height: auto;
     background-color: black;
-    @media {
+    @media screen {
         all
     }
 }
