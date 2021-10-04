@@ -1,0 +1,30 @@
+#Flex{
+    display: flex;
+    justify-content: center;
+    border: solid;
+    padding-top: 10px;
+    width: 500px;
+    align-items: center;
+    background-color: greenyellow;
+    margin: auto;
+}
+h1{
+    text-align: center;
+    color: red;
+}
+#jour{
+    text-align: center;
+    margin: 10px;
+}
+#heures{
+    text-align: center;
+    margin: 10px;
+}
+#minutes{
+    text-align: center;
+    margin: 10px;
+}
+#secondes{
+    text-align: center;
+    margin: 10px;
+}
